@@ -12,15 +12,14 @@ h2, h3, h4, h5, h6
 #my-account-accordion > .panel-default > .panel-heading a,
 .my-payments-total.choshen-pseudo-table:first-of-type,
 .panel ,
-table {
-    background-color: black !important;
+table
+{
+    background-color: #121212 !important;
     color: white !important;
 }
 
-.navbar, .rounded-subheader {
+.navbar,
+.rounded-subheader,
+.tabs-right > .nav-tabs > li > a  {
     background-color: #5E2750 !important;
-}
-
-.tabs-right > .nav-tabs > li > a {
-    background-color:  #5E2750 !important;
 }
