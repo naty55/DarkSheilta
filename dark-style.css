@@ -1,0 +1,26 @@
+body, 
+td,
+.breadcrumb a,
+.main-content,
+.accordion,
+h2, h3, h4, h5, h6
+.slick-choshen-main-page-single-click h4,
+.service-requests-tab.nav-tabs > li + li > a,
+.seminar-works-details-wrapper, 
+.account-details-wrapper,
+.panel-heading,
+#my-account-accordion > .panel-default > .panel-heading a,
+.my-payments-total.choshen-pseudo-table:first-of-type,
+.panel ,
+table {
+    background-color: black !important;
+    color: white !important;
+}
+
+.navbar, .rounded-subheader {
+    background-color: #5E2750 !important;
+}
+
+.tabs-right > .nav-tabs > li > a {
+    background-color:  #5E2750 !important;
+}

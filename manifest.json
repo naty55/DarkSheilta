@@ -1,0 +1,15 @@
+{
+    "manifest_version": 3,
+    "name": "DarkSheilta Extension",
+    "description": "Enable Dark Mode for Sheilta website, this extension is still work in progress",
+    "version": "0.0",
+    "action": {
+        "default_popup": "index.html"
+      },
+    "content_scripts": [
+        {
+          "matches": ["https://sheilta.apps.openu.ac.il/*"],
+          "css": ["dark-style.css"]
+        }
+      ]
+  }
