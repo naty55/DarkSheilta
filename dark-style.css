@@ -18,6 +18,10 @@ table
     color: white !important;
 }
 
+.slick-choshen-main-page-single-click > a > div {
+    background-color: #3F3F3F !important;
+}
+
 .navbar,
 .rounded-subheader,
 .tabs-right > .nav-tabs > li > a  {
