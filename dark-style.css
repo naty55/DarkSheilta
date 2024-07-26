@@ -3,7 +3,7 @@ td,
 .breadcrumb a,
 .main-content,
 .accordion,
-h2, h3, h4, h5, h6
+h2, h3, h4, h5, h6,
 .slick-choshen-main-page-single-click h4,
 .service-requests-tab.nav-tabs > li + li > a,
 .seminar-works-details-wrapper, 
@@ -11,20 +11,78 @@ h2, h3, h4, h5, h6
 .panel-heading,
 #my-account-accordion > .panel-default > .panel-heading a,
 .my-payments-total.choshen-pseudo-table:first-of-type,
-.panel ,
+.panel,
 table,
-select:not(:-internal-select-author-button) 
+td > a,
+input,
+.form-control,
+.panel-default > .panel-heading + .panel-collapse > .panel-body.panel-body-with-bg,
+.menu .tab-content .tab-pane > div > ul,
+.tabs-right .tab-content a,
+.white-container-thanks-error,
+.credits-counter-sp
 {
     background-color: #121212 !important;
     color: white !important;
 }
 
-.slick-choshen-main-page-single-click > a > div {
-    background-color: #3F3F3F !important;
+.slick-choshen-main-page-single-click > a > div,
+.footer
+{
+    background-color: #c2b41f !important;
 }
 
 .navbar,
 .rounded-subheader,
-.tabs-right > .nav-tabs > li > a  {
-    background-color: #5E2750 !important;
+.tabs-right > .nav-tabs > li > a,
+.menu .tab-content .tab-pane > div > ul {
+    background-color: #408591 !important;
+}
+
+/* .navbar,
+.rounded-subheader,
+.tabs-right > .nav-tabs > li > a {
+    color: black !important;
+    background-color: #d7c823 !important;
+} */
+
+/* 
+td > a:hover, td > a:focus {
+    color: #5E2750 !important;
+} */
+
+
+/* for course registeration */
+#box_left_1,
+#box_left_2, 
+#box_right_1, 
+#box_right_2,
+#explanation p {
+    background-color: #121212 !important;
+}
+.container_12{ 
+    background-image: none !important;
+}
+
+
+
+/* Opal shit goes here*/
+#page-content-wrapper,
+.path-mod-ouilforum #region-main, 
+.format-outopics body, 
+.format-smartopal body,
+.format-site body, 
+.format-outopics #page, 
+.format-smartopal #page, 
+.format-site #page, 
+.format-outopics #page-content, 
+.format-smartopal #page-content, 
+.format-site #page-content,
+#page-my-index *,
+.path-mod-ouilforum #region-main *, 
+.block_ouil_navigation *,
+.block_settings *
+{
+    background-color: #121212 !important;
+    color: white !important;
 }
