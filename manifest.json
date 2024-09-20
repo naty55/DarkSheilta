@@ -9,8 +9,7 @@
     "content_scripts": [
         {
           "matches": ["https://sheilta.apps.openu.ac.il/*", "https://opal.openu.ac.il/*"],
-          "css": ["dark-style.css"],
-          "run_at": "document_end"
+          "js": ["hello.js"]
         }
       ]
   }
