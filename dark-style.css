@@ -20,7 +20,8 @@ input,
 .menu .tab-content .tab-pane > div > ul,
 .tabs-right .tab-content a,
 .white-container-thanks-error,
-.credits-counter-sp
+.credits-counter-sp, 
+select
 {
     background-color: #121212 !important;
     color: white !important;
